@@ -20,7 +20,7 @@ RUN apt-get update &&\
         dialog \
         x11-apps
 
-# Install imgui
+# Install imgui-cmake so cmake can find the imgui components we need
 WORKDIR /usr/local/src/imgui-cmake
 RUN cd /usr/local/src/ &&\
     git clone https://github.com/aniongithub/imgui-cmake.git &&\

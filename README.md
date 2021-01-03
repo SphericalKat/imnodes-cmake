@@ -1,2 +1,2 @@
 # imnodes-cmake
-A CMake wrapper for imnodes
+A CMake wrapper for [imnodes](https://github.com/Nelarius/imnodes). This project depends on [imgui-cmake](https://github.com/ocornut/imgui), which is a CMake wrapper for Dear Imgui  itself
