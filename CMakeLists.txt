@@ -18,7 +18,7 @@ if (${BUILD_IMNODES_SAMPLE})
 endif()
 
 configure_file(${PROJECT_NAME}-config.cmake
-  "${CMAKE_BINARY_DIR}/${project}-config.cmake"
+  "${CMAKE_BINARY_DIR}/${PROJECT_NAME}-config.cmake"
   @ONLY
 )
 
