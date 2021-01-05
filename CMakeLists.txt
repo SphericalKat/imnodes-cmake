@@ -12,9 +12,9 @@ option(BUILD_SHARED_LIBS "Build shared libs" ON)
 
 add_subdirectory(imnodes-core)
 
-option(BUILD_IMNODES_SAMPLE "Build imnodes example" ON)
-if (${BUILD_IMNODES_SAMPLE})
-  add_subdirectory(imnodes-example)
+option(BUILD_IMNODES_EXAMPLES "Build imnodes examples" ON)
+if (${BUILD_IMNODES_EXAMPLES})
+  add_subdirectory(examples)
 endif()
 
 configure_file(${PROJECT_NAME}-config.cmake

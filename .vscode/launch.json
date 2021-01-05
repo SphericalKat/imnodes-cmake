@@ -5,10 +5,29 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "imnodes example",
+            "name": "Color node editor",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/imnodes-example/imnodes-example",
+            "program": "${workspaceFolder}/build/examples/color-node-editor/color-node-editor",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Hello imnodes",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/examples/hello/hello",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
